@@ -1,0 +1,309 @@
+body {
+    /* background-image: url("bilder/logo.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center 15px; */
+    /* background-size: cover; */
+    /* background-color: #bef43663; */
+    height: 80px;
+    padding: 50px 0 15px;
+    text-align: center;
+}
+
+#container {
+    width: inherit;
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+#kopfleiste {
+    width: inherit;
+    height: 80px;
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 15px;
+    
+    text-align: center;
+}
+
+#kopfleiste h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 36px;
+}
+
+#menu {
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    margin: 0px 15px 0px 0px;
+    padding: 10px;
+    text-align: right;
+    /* background-color: #bef43663; */
+    
+}
+
+#menu li {
+    text-align: right;
+    display: inline;
+    margin-right: 20px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#inhalt {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    padding: 10px 15px 10px 15px;
+    
+}
+
+#inhalt h2 {
+    text-align: center;
+}
+
+#verlaesslichkeit {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    text-align: left;
+    /* background: yellow; */
+    margin: 5px;
+    vertical-align: top;
+}
+
+#vorteile {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 10px 15px;
+    border: 1pt solid black;
+    text-align: left;
+    margin: 5px;
+    vertical-align: top;
+}
+
+#ziel {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 10px 15px;
+    border: 1pt solid black;
+    text-align: left;
+    margin: 5px;
+    vertical-align: top;
+}
+
+#unterhaltsreinigung {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    text-align: left;
+    /* background: yellow; */
+    margin: 5px;
+    vertical-align: top;
+}
+
+#glasUFassade {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    text-align: left;
+    /* background: yellow; */
+    margin: 5px;
+    vertical-align: top;
+}
+
+#sonderreinigung {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    text-align: left;
+    /* background: yellow; */
+    margin: 5px;
+    vertical-align: top;
+}
+
+#baureinigung {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    text-align: left;
+    /* background: yellow; */
+    margin: 5px;
+    vertical-align: top;
+}
+
+#industrieHallenreinigung {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    text-align: left;
+    /* background: yellow; */
+    margin: 5px;
+    vertical-align: top;
+}
+
+#bueroPraxisReinigung {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    text-align: left;
+    /* background: yellow; */
+    margin: 5px;
+    vertical-align: top;
+}
+
+/* Formular Styling */
+#kontaktformular {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* background-color: #f9f9f9; */
+}
+
+.formgruppe {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formgruppe label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.formgruppe input,
+.formgruppe select,
+.formgruppe textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.formgruppe input:focus,
+.formgruppe select:focus,
+.formgruppe textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.formgruppe textarea {
+    resize: vertical;
+}
+
+.formgruppe button {
+    padding: 12px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formgruppe button:hover {
+    background-color: #45a049;
+}
+
+/* Styling für das existierende Kontaktformular */
+.kontaktformular {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* background-color: #f9f9f9; */
+}
+
+.kontaktformular fieldset {
+    border: none;
+    padding: 0;
+}
+
+.kontaktformular legend {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.kontaktformular label {
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.kontaktformular input[type="text"],
+.kontaktformular input[type="email"],
+.kontaktformular input[type="tel"],
+.kontaktformular textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.kontaktformular input[type="text"]:focus,
+.kontaktformular input[type="email"]:focus,
+.kontaktformular textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.kontaktformular textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.kontaktformular input[type="submit"] {
+    padding: 12px 30px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.kontaktformular input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.kontaktformular br {
+    display: none;
+}
